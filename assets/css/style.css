@@ -112,13 +112,15 @@ footer {
 /* sidebar */
 
 .sidebar {
-  float: right;
-  width: 100%;
+  float: left;
+  width: 33.33%;
   max-width: 270px;
   padding: 30px;
   margin-bottom: 20px;
   background: #fff;
   border: 1px solid #ddd;
+  (max-width: 640px);
+
 }
 
 h3,
@@ -236,4 +238,133 @@ input[type=submit] {
   cursor: pointer;
   background: #4aaaa5;
   border: 0 none;
+}
+
+@media screen and (max-width: 980px) {
+   #masthead {
+    background-color: lightblue;
+  }
+
+    .sidebar {
+
+    }
+}
+
+@media screen and (max-width: 768px) {
+   #masthead {
+      background-color: black;
+      position: static;
+    }
+
+    #logo {
+        float: left;
+        width: 100%;
+    }
+
+    nav {
+        float: left;
+        width: 100%;
+        margin: 20px;
+        display: table;
+    }
+
+    nav a {
+        display: table-cell;
+        vertical-align: middle;
+        text-align: center;
+    }
+
+
+
+    .sidebar {
+        float: left;
+        width: 100%;
+        max-width: 700px;
+
+
+    }
+
+    #main-container {
+        margin-left: 20px;
+        padding: 20px;
+
+    }
+
+    .main-section {
+        float: left;
+        width: 100%;
+        max-width: 700px;
+
+    }
+
+@media screen and (max-width: 640px) {
+  #masthead {
+    background-color: darkblue;
+    position: static;
+  }
+
+  #logo {
+    float: left;
+    width: 100%;
+  }
+
+  nav {
+    float: left;
+    width: 100%;
+    margin: 20px;
+    display: table;
+
+  }
+
+  nav a {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+  }
+
+  .main-section {
+      display: table-cell;
+  }
+
+
+  .sidebar {
+    float: left;
+    width: 100%;
+    max-width: 600px;
+
+
+  }
+
+  .auth-image {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 0 40px 0;}
+}
+
+  #main-container {
+    padding: 20px;
+  }
+
+  .main-section {
+    float: left;
+    width: 600px;
+
+  .work {
+        position: relative;
+        float: left;
+        width: 274px;
+        margin: 20px 0 25px;
+        overflow: auto;
+    }
+
+
+  .work img {
+        width: 100%;
+        border: 0 none;
+        opacity: 0.8;
+
+  }
+  }
+
+
 }

@@ -285,17 +285,17 @@ input[type=submit] {
     }
 
     #main-container {
-        margin-left: 20px;
         padding: 20px;
 
     }
 
     .main-section {
         float: left;
-        width: 100%;
-        max-width: 700px;
+        max-width: 768px;
 
     }
+
+
 
 @media screen and (max-width: 640px) {
   #masthead {
@@ -346,9 +346,9 @@ input[type=submit] {
   }
 
   .main-section {
-    float: left;
-    width: 600px;
-
+      float: left;
+      width: 600px;
+  }
   .work {
         position: relative;
         float: left;

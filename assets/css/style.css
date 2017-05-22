@@ -242,17 +242,23 @@ input[type=submit] {
 
 @media screen and (max-width: 980px) {
    #masthead {
-    background-color: lightblue;
   }
 
     .sidebar {
 
     }
+
+  p {
+    float:left;
+  }
+
+  .auth-image {
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 768px) {
    #masthead {
-      background-color: black;
       position: static;
     }
 
@@ -299,7 +305,6 @@ input[type=submit] {
 
 @media screen and (max-width: 640px) {
   #masthead {
-    background-color: darkblue;
     position: static;
   }
 
